@@ -4,7 +4,7 @@ using System.Text;
 
 namespace algorithm.Solutions
 {
-    public class Solution
+    public class TwoSum_1
     {
         public int[] TwoSum(int[] nums, int target)
         {
