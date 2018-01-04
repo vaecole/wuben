@@ -1,4 +1,5 @@
-﻿using System;
+﻿using algorithm.Solutions;
+using System;
 
 namespace algorithm
 {
@@ -6,7 +7,10 @@ namespace algorithm
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] nums = new[] { 3 };
+            int val = 2;
+            var res = new Remove_Element_27().RemoveElement(nums, val);
+            Console.WriteLine(res);
         }
     }
 }
